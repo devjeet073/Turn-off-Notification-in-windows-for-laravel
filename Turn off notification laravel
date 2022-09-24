@@ -1,0 +1,11 @@
+Remove Enable key from the Registry,
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Laravel Mix
+
+Find wpndatabase.db from the below path, and open with any of your DB editors (I used HeidiSQL)
+
+
+SQLLite Database supper .db file.
+
+C:\Users\<Username>\AppData\Local\Microsoft\Windows\Notifications
+
+Check the NotificationHandler table and identify Laravel Mix under PrimaryId column. Just delete the entire column row.
